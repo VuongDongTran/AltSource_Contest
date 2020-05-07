@@ -9,6 +9,7 @@ namespace AltSource_Contest.Business
         {
             Console.WriteLine("|  Name   | Price | Voice minutes | Text message | Data in MBs |");
             Console.WriteLine($"|  {data.Name}   | {data.Price} | {data.VoiceMunite} | {data.TextMessage} | {data.DataInMBs} |");
+            Console.WriteLine("\n");
         }
     }
 }

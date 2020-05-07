@@ -8,7 +8,6 @@ namespace AltSource_Contest.Business
         public Data CreateData(string[] inputString)
         {
             Data data = new Data();
-
             for (int item = 0; item < inputString.Length; item++)
             {
                 var money = inputString[item].Substring(0, 1);
